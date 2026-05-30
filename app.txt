@@ -1,0 +1,9 @@
+
+name = input("Enter Employee Name: ")
+year = input("Enter Joining Year: ")
+department = input("Enter Department Name: ")
+name_part = name[:3].upper()
+year_part = year[-2:]
+dept_part = department[:3].upper()
+employee_id = name_part + year_part + dept_part
+print("Generated Employee ID :", employee_id)
